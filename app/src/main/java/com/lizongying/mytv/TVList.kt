@@ -1,6 +1,6 @@
-package com.lizongying.mytv
+package com.lizongying.mytv.models
 
-import com.lizongying.mytv.models.ProgramType
+import com.lizongying.mytv.R
 
 object TVList {
     val list: Map<String, List<TV>> by lazy {
@@ -268,7 +268,7 @@ object TVList {
                     "2020603421",
                     ProgramType.Y_JCE,
                     false,
-                    mustToken = false
+                    mustToken = false,
                 ),
                 TV(
                     0,
